@@ -57,13 +57,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun addDataToList() {
-        mList.add(LanguageData("JAVA" , R.drawable.java))
-        mList.add(LanguageData("KOTLIN" , R.drawable.kotlin))
-        mList.add(LanguageData("C++" , R.drawable.cplusplus))
-        mList.add(LanguageData("HTML" , R.drawable.html))
-        mList.add(LanguageData("PYTHON" , R.drawable.python))
-        mList.add(LanguageData("SWIFT" , R.drawable.swift))
-        mList.add(LanguageData("C#" , R.drawable.csharp))
-        mList.add(LanguageData("JAVASCRIPT" , R.drawable.javascript))
+        mList.add(LanguageData("JAVA" , R.drawable.java,
+            "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible."))
+        mList.add(LanguageData("KOTLIN" , R.drawable.kotlin,
+            "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise."))
+        mList.add(LanguageData("C++" , R.drawable.cplusplus,
+            "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or \"C with Classes\". The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation."))
+        mList.add(LanguageData("HTML" , R.drawable.html,
+            "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser."))
+        mList.add(LanguageData("PYTHON" , R.drawable.python,
+            "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation."))
+        mList.add(LanguageData("SWIFT" , R.drawable.swift,
+
+            "Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community."))
+        mList.add(LanguageData("C#" , R.drawable.csharp,
+            "C# is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines."))
+        mList.add(LanguageData("JAVASCRIPT" , R.drawable.javascript,
+            "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm."))
     }
 }
